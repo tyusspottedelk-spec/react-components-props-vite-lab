@@ -27,6 +27,16 @@ down to the components that need it.
 Have a look at the components below and draw out a component hierarchy so you
 can determine how to pass data down as props.
 
+The blog's component tree is:
+
+```text
+App
+├── Header
+├── About
+└── ArticleList
+  └── Article
+```
+
 ### Header
 
 Make a `Header` component as a child of `App`. It should return:
